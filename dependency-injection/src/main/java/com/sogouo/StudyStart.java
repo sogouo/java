@@ -21,14 +21,15 @@ package com.sogouo;
  * 从这示例中，任务依赖程序员, Task类依赖于Phper 类，v1.0 Task类绑定特定的实例，现在这种依赖可以在使用时
  * 按需绑定, 这就是依赖注入
  *
+ * ** 通过构造函数依赖注入外部实例对象
+ *
  */
 
 public class StudyStart {
 
     public static void main(String[] args) {
-        Task task = new Task("登录模块 #1");
-        Phper owner = new Phper("赵六");
-        task.setOwner(owner);
+        Phper owner = new Phper("王武");
+        Task task = new Task("登录模块 #1", owner);
         task.start();
     }
 }

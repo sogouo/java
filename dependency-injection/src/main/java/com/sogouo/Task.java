@@ -11,15 +11,8 @@ public class Task {
     private String name;
     private Phper owner;
 
-    public Task(String name) {
+    public Task(String name, Phper owner) {
         this.name = name;
-    }
-
-    public Phper getOwner() {
-        return owner;
-    }
-
-    public void setOwner(Phper owner) {
         this.owner = owner;
     }
 
