@@ -13,7 +13,14 @@ public class Task {
 
     public Task(String name) {
         this.name = name;
-        this.owner = new Phper("李四");
+    }
+
+    public Phper getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Phper owner) {
+        this.owner = owner;
     }
 
     public void start() {

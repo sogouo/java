@@ -15,12 +15,20 @@ package com.sogouo;
  * 重用设计初衷
  *
  * 应该让用户来指派任务负责人
+ *
+ * Step2: 解决在不改变类库代码的情况下，可以指定任何Phper 程序员
+ *
+ * 从这示例中，任务依赖程序员, Task类依赖于Phper 类，v1.0 Task类绑定特定的实例，现在这种依赖可以在使用时
+ * 按需绑定, 这就是依赖注入
+ *
  */
 
 public class StudyStart {
 
     public static void main(String[] args) {
         Task task = new Task("登录模块 #1");
+        Phper owner = new Phper("赵六");
+        task.setOwner(owner);
         task.start();
     }
 }
