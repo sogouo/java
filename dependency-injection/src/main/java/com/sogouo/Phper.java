@@ -4,7 +4,7 @@ package com.sogouo;
  * 接受任务的工程师: Phper 工程师
  *
  */
-public class Phper {
+public class Phper implements Coder{
 
     private String name;
 
@@ -12,8 +12,7 @@ public class Phper {
         this.name = name;
     }
 
-    // 正在写代码
-    public void writeCoding() {
+    public void writeCode() {
         System.out.println(this.name + " is writing php code");
     }
 }

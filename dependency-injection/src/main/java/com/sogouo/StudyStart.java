@@ -23,13 +23,67 @@ package com.sogouo;
  *
  * ** 通过构造函数依赖注入外部实例对象
  *
+ *
+ * <property
+ * <constructor value
+ *
+ * Bean 的作用
+ *  1、Singlton <- 默认, per instance per container
+ *  2、prototype 每个取的时候都是一个新的instance
+ *  3、request <- per instance per http req
+ *  4、Session <- per instance per session
+ *  5、Application <- per servlet context
+ *  6、websocket <- per
+ *
+ *  3~6 都是MVC里面的内容
+ *
+ *  299 行
+ *
+ *  Bean 初始化之后的声明周期
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *  Instantiation -> call default constructor
+ *
+ *  Populate properties call setter to set value
+ *
+ *  BeanNameAware   BeanNameWare Interface (接口) 在类可以找到
+ *
+ *  BeanFactoryAware    BeanFactoryAware Interface
+ *
+ *  ApplicationContextAware     ApplicationContextAware interface
+ *
+ *
+ *  BeanPostProcessors Pre-init     create another class
+ *
+ *
+ *
+ *
+ *
+ *  I
+ *
+ *  Custom init method      xml bean 标签init-method="customInit"
+ *
+ *  BeanPostProcessor PostInitizllzation
+ *
+ *
+ *
  */
 
 public class StudyStart {
 
     public static void main(String[] args) {
-        Phper owner = new Phper("王武");
-        Task task = new Task("登录模块 #1", owner);
+        Task task = new Task("登录模块 #1");
+        Coder owner = new Phper("张三");
+        task.setOwner(owner);
+
+//        Coder javaer = new Javaer("西伯利亚狼");
+//        task.setOwner(javaer);
         task.start();
     }
 }
