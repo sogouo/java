@@ -20,3 +20,85 @@ Effective Java
 
 [☕ 老司机在 Java 技术领域的十年积累](https://github.com/dunwu/java-tutorial)
 
+
+
+
+
+
+
+
+#### Go 相关资料
+
+[GolangPlus Go 语言入门笔记](https://www.golangplus.com/knowledge/doc/golang-entry-notes#)
+
+[Uber 编码规范](https://zhuanlan.zhihu.com/p/86410535)
+
+
+
+[Go With The Domain](https://threedots.tech/go-with-the-domain/)
+
+- Building Modern Business Software in Go
+- [Building event-driven applications the easy way in Go.](https://github.com/ThreeDotsLabs/watermill/)
+- [Too modern Go application? Building a serverless application with Google Cloud Run and Firebase](https://threedots.tech/post/serverless-cloud-run-firebase-modern-go-application/)
+- [Go Docker dev environment with Go Modules and live code reloading](https://threedots.tech/post/go-docker-dev-environment-with-go-modules-and-live-code-reloading/)
+- [Go library for building event-driven applications.](https://watermill.io/)
+- [internal](https://github.com/ThreeDotsLabs/watermill/tree/master/internal)
+- [nats-example](https://github.com/ThreeDotsLabs/nats-example)
+- [租房信息聚合爬虫](https://github.com/kezhenxu94/house-renting)
+- 
+
+项目
+
+- [An easy-to-use cli tool for downloading manga](https://github.com/Gyro7/mangodl)
+
+  - 下载动画
+
+- [Gyro7](https://github.com/Gyro7)
+
+- [gopherdaily](https://github.com/bigwhite/gopherdaily/blob/master/202105/issue-20210529.md)
+
+  - [Blog tonybai](https://tonybai.com/)
+
+- [Simplify cloud-native application development](https://dapr.io/)
+
+  - ### Focus on your application’s core logic and keep your code simple and portable
+
+  - [Dapr org](https://github.com/dapr)
+
+- [Standard Tooling for Go Fast Development / Go 快速开发标准工具](https://github.com/mix-go/mix)
+
+- [coding-for-great-offer](https://github.com/algorithmzuo/coding-for-great-offer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Simple and performant ORM for sql.DB](https://github.com/uptrace/bun)
+
+
+
+
