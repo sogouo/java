@@ -1,0 +1,97 @@
+[Python3 文件读取/写入](https://blog.csdn.net/qq_37828488/article/details/100024924)
+
+```python
+# 打开文件
+with open("test.txt", "r") as f:
+    # 读取文件: 一次性读全部内容, 一次性读取文本中全部的内容，以字符串的形式返回结果
+    data = f.read()
+    print(data)
+    
+with open("test.txt", "r") as f:
+  	# 只读取文本第一行的内容，以字符串的形式返回结果
+    data = f.readline()
+    print(data)
+    
+    
+with open("test.txt", "r") as f:
+    # 读取文本所有内容，并且以数列的格式返回结果，一般配合for in使用
+    data = f.readlines()
+    print(data)
+    
+    
+with open("test.txt", "r") as f:
+    for line in f.readlines():
+        line = line.strip('\n')  #去掉列表中每一个元素的换行符
+        print(line)
+        
+with open("test.txt","w") as f:
+    # # 自带文件关闭功能，不需要再写f.close()
+    f.write("这是个测试！")
+```
+
+
+
+[python3 list 遍历](https://blog.csdn.net/whatday/article/details/100557888)
+
+[python3 列表](https://www.runoob.com/python3/python3-list.html)
+
+```
+
+```
+
+
+
+- [Spring、SpringMVC、MyBatis、Spring Boot案例](https://github.com/lenve/JavaEETest)
+
+
+
+Go 
+
+Question: could not send message: Vim(call):E631: ch_sendraw(): write failed
+
+>vim ~/.vimrc
+>
+>[:GoUpdateBinaries [binaries]](https://github.com/fatih/vim-go/blob/57e01d258804fa8a0a2f2e62b33130ecd7d1b57f/doc/vim-go.txt#L506)
+>
+>[issue](https://github.com/fatih/vim-go/issues/2919)
+
+
+
+Question: mac go permission denied
+
+>
+>
+>[chmod -R 777 go目录](https://blog.csdn.net/q282176713/article/details/81003961)
+>
+>
+
+Question: 跳转
+
+[gopls](https://www.oasys.net/fragments/vim-go-initializing-gopls/)
+
+[跳转](https://www.jianshu.com/p/8b4647d60809)
+
+[go-vim 代码跳转配置](https://www.cnblogs.com/linengier/p/9444498.html)
+
+Vim go 相关资料
+
+[Writing Go in Vim](https://thoughtbot.com/blog/writing-go-in-vim)
+
+[Using Vim for Go Development](https://jogendra.dev/using-vim-for-go-development)
+
+[将 VIM 打造成 go 语言的 ide](https://learnku.com/articles/24924)
+
+[go-vim 配置](https://www.cnblogs.com/chris-cp/p/5846640.html)
+
+[vim-go](https://github.com/fatih/vim-go/blob/master/README.md#install)
+
+[vim-go wiki](https://github.com/fatih/vim-go/wiki)
+
+
+
+
+
+借鉴资料
+
+[bingoohuang Golang的一些笔记](https://github.com/bingoohuang/blog/issues/84)
+
