@@ -99,3 +99,25 @@ Java 库
     - lastest version: 1.9
     - [[TEXT-186] StringSubstitutor map constructor throws NPE on 1.9 with null](https://github.com/apache/commons-text/commit/3c4d37d68a18aa5c93b95f27645c7589c58e54e8)
 
+
+
+
+
+
+
+<span style="color:#FF4500; font-size: 1.2rem">针对 vue 多页面刷新找不到地址基本配置如下</span>
+
+```nginx
+server {
+    listen 80;
+    server_name project_name_domain_or_ip;
+    root /project_path_url/;
+    index index.html index.htm;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
+```
+
+
+
